@@ -10,7 +10,25 @@ body{
     color:white;
 }
 
+header{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background:linear-gradient(135deg,#0f172a,#1e3a8a);
+}
 
+header h1{
+    font-size:60px;
+    margin-bottom:15px;
+}
+
+header p{
+    font-size:25px;
+    color:#cbd5e1;
+}
 
 button{
     margin-top:30px;
@@ -55,120 +73,4 @@ footer{
     text-align:center;
     padding:30px;
     background:#020617;
-}/* Navbar */
-
-.navbar{
-    position:fixed;
-    top:0;
-    width:100%;
-    padding:20px 10%;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    background:#020617;
-    z-index:1000;
-}
-
-.logo{
-    color:white;
-    font-size:28px;
-    font-weight:bold;
-}
-
-.nav-links{
-    display:flex;
-    gap:30px;
-    list-style:none;
-}
-
-.nav-links a{
-    color:white;
-    text-decoration:none;
-    transition:.3s;
-}
-
-.nav-links a:hover{
-    color:#3b82f6;
-}/* Hero Section */
-
-.hero{
-
-display:flex;
-
-justify-content:space-between;
-
-align-items:center;
-
-padding:120px 10%;
-
-min-height:100vh;
-
-}
-
-.hero-text{
-
-width:55%;
-
-}
-
-.hero-text h1{
-
-font-size:65px;
-
-margin-bottom:20px;
-
-}
-
-.hero-text span{
-
-color:#3b82f6;
-
-}
-
-.hero-text h2{
-
-font-size:32px;
-
-margin-bottom:20px;
-
-color:#cbd5e1;
-
-}
-
-.hero-text p{
-
-font-size:20px;
-
-line-height:35px;
-
-color:#94a3b8;
-
-margin-bottom:30px;
-
-}
-
-.hero-image{
-
-width:40%;
-
-display:flex;
-
-justify-content:center;
-
-}
-
-.hero-image img{
-
-width:350px;
-
-height:350px;
-
-border-radius:50%;
-
-object-fit:cover;
-
-border:6px solid #3b82f6;
-
-box-shadow:0 0 40px rgba(59,130,246,.5);
-
 }
